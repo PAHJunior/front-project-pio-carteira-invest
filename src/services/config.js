@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Notify } from 'quasar';
 
 const http = axios.create({
-  baseURL: 'https://carteira-invest.herokuapp.com/api',
+  baseURL: 'https://carteira-invest-pio.herokuapp.com/api',
   timeout: 60000,
 });
 
